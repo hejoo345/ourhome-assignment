@@ -10,13 +10,14 @@ const Products = () => {
 
   // 상품 리스트 불러오기
   useEffect(() => {
-    const fetchData = () => {
-      fetch("/data.json")
-        .then(res => res.json())
-        .then(res => {
-          setProduct(res.products);
-        })
-        .catch(e => console.error(e));
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/data.json");
+        const result = await response.json();
+        setProduct(result.products);
+      } catch (error) {
+        console.error(error);
+      }
     };
     fetchData();
   }, []);
