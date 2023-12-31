@@ -18,7 +18,6 @@ export function CartProvider({ children }) {
     const existInCart = cartState.find(
       item => item.product_id === product.product_id
     );
-
     if (existInCart) {
       const updatedCart = cartState.map(item => {
         if (item.product_id === product.product_id) {

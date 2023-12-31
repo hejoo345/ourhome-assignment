@@ -6,7 +6,7 @@ import { FaEquals } from "react-icons/fa";
 import styles from "./cartList.module.css";
 import { formatPrice } from "../../utils/formatPrice";
 
-const Cart = () => {
+const CartList = () => {
   const { cartState } = useContext(CartContext);
   const [priceInfo, setPriceInfo] = useState({
     totalPrice: 0,
@@ -69,4 +69,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartList;

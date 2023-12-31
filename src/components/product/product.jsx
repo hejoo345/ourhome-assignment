@@ -31,7 +31,6 @@ const Product = ({ product, openModal }) => {
 
   // 장바구니 추가 이벤트
   const handleAddCart = () => {
-    console.log(product);
     addToCart(product);
     openModal();
   };
