@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Product from "../product/product";
 import styles from "./products.module.css";
 import Modal from "../modal/modal";
+import Spinner from "../spinner/spinner";
 
 const Products = () => {
   const [products, setProduct] = useState([]);
@@ -34,20 +35,25 @@ const Products = () => {
 
   return (
     <div>
-      <ul className={styles.products}>
-        {products.map(product => (
-          <Product
-            key={product.product_id}
-            product={product}
-            openModal={openModal}
-          />
-        ))}
-      </ul>
-      {modalActive ? (
+      {products.length !== 0 ? (
+        <ul className={styles.products}>
+          {products.map(product => (
+            <Product
+              key={product.product_id}
+              product={product}
+              openModal={openModal}
+            />
+          ))}
+        </ul>
+      ) : (
+        <Spinner />
+      )}
+
+      {modalActive && (
         <div className={styles.modalContainer}>
           <Modal colseModal={colseModal} />
         </div>
-      ) : null}
+      )}
     </div>
   );
 };
