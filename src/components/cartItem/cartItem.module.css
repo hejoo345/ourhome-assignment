@@ -1,0 +1,67 @@
+.container {
+  border-top: 1px solid #dedede;
+}
+
+.container > td {
+  padding: 10px 10px;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.name > div {
+  width: 100px;
+  border: 1px solid #cccccc;
+}
+
+.name > div > img {
+  width: 100%;
+}
+
+.name > strong {
+  padding-left: 30px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity > input {
+  border: none;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  width: 40px;
+  text-align: center;
+  height: 25px;
+  font-weight: 600;
+}
+
+.quantity > button {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  color: #666;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.totalPrice {
+  text-align: center;
+}
+
+.trash {
+  text-align: center;
+}
+
+.trash > button {
+  border: none;
+  background: none;
+}

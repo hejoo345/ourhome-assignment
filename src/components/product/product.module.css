@@ -1,0 +1,78 @@
+.container {
+  width: 260px;
+  margin-bottom: 40px;
+}
+
+.ranking {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.imgContainer {
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  position: relative;
+}
+
+.imgContainer > img {
+  width: 100%;
+}
+
+.nm {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.brif {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.price {
+  letter-spacing: -1px;
+}
+
+.eventMon {
+  font-size: 26px;
+}
+
+.eventMon > strong {
+  font-weight: 700;
+}
+
+.price > s {
+  margin: 0 6px;
+  font-weight: 500;
+  color: #676666;
+}
+
+.rate {
+  font-weight: 600;
+  color: #ff6500;
+}
+
+.option {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.option.temp1 {
+  color: #448ccb;
+}
+
+.option.temp2 {
+  color: #3fc2ec;
+}
+
+.option.temp3 {
+  color: #666;
+}

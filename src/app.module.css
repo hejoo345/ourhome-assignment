@@ -1,0 +1,31 @@
+.app {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.tabMenu {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.tabMenu > li {
+  width: 50%;
+  text-align: center;
+}
+
+.tabMenu > li > a {
+  width: 100%;
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #fdecd9;
+  color: #000;
+}
+
+.tabMenu > li > a.active {
+  border-bottom: 5px solid #f07d00;
+  color: #f07d00;
+}

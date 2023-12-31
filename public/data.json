@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "product_id": "S000000002472",
+      "ranking": 1,
+      "product_img": "/attach_file/20201118/C4A1610E7468407FA935CBF8DE2164DF.jpg",
+      "product_nm": "★연말세일★ 진한 사골곰탕 300g",
+      "product_brif": "100% 사골로 고은 진한 사골곰탕",
+      "sale_mon": 1750,
+      "dis_rate": 50,
+      "event_mon": 880,
+      "keep_methode": "실온",
+      "keep_temp": "temp3"
+    },
+    {
+      "product_id": "S000000002900",
+      "ranking": 2,
+      "product_img": "/attach_file/20230801/DFDECC1568BA46F9A96D27A52921B06C.jpg",
+      "product_nm": "★연말세일★ [온더고] 더블치즈 차돌깍두기 300g",
+      "product_brif": "치즈 듬뿍,모짜렐라, 통차돌, 국내산 깍두기",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000002901",
+      "ranking": 3,
+      "product_img": "/attach_file/20230801/93CE10E54C6E49D1AD21BE99B8956BCC.jpg",
+      "product_nm": "★연말세일★ [온더고] 전주식 소고기 오색비빔밥 310g",
+      "product_brif": "오색 가득 토핑 듬뿍, 소고기, 한국의 맛",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000007648",
+      "ranking": 4,
+      "product_img": "/attach_file/20230801/FDC19A9261874DE58B6B50F9EEFA007E.jpg",
+      "product_nm": "★연말세일★ [온더고] 이탈리아식 페퍼라구 볼로네제 파스타 300g",
+      "product_brif": "매콤달콤, 고기 듬뿍, 라구 소스, 펜네파스타",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000002430",
+      "ranking": 5,
+      "product_img": "/attach_file/20230801/7A240C661DBD44C998FB54737C867240.jpg",
+      "product_nm": "★연말세일★ [온더고] 숯불향 우삼겹불고기덮밥 290g",
+      "product_brif": "저온 숙성 불고기, 오븐 구이 야채, 한국의 맛",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000003094",
+      "ranking": 6,
+      "product_img": "/attach_file/20230801/978E874BDB3F4C34B7970982DF974EA0.jpg",
+      "product_nm": "★연말세일★ [온더고] 육즙 가득 미니함박 & 로제파스타 310g",
+      "product_brif": "육즙 가득 함박, 토마토 로제, 파스타",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000005203",
+      "ranking": 7,
+      "product_img": "/attach_file/20230809/B22F8C84573E46B0B215CB68E7BA106F.jpg",
+      "product_nm": "★연말세일★ [온더고] 통모짜 로제 떡볶이 with 파스타 320g",
+      "product_brif": "치즈 듬뿍, 떡볶이, 로제 소스, 생크림, 퓨전한식",
+      "sale_mon": 5980,
+      "dis_rate": 50,
+      "event_mon": 2990,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    },
+    {
+      "product_id": "S000000009447",
+      "ranking": 8,
+      "product_img": "/attach_file/20230920/B92F1454250B4F12AC06BB3486B8FA85.jpg",
+      "product_nm": "★연말세일★ 아워홈 치킨스테이크 마살라 레드커리 450g",
+      "product_brif": "겉바속촉 마살라 레드커리 치킨스테이크",
+      "sale_mon": 10980,
+      "dis_rate": 50,
+      "event_mon": 5490,
+      "keep_methode": "냉동",
+      "keep_temp": "temp1"
+    }
+  ]
+}
