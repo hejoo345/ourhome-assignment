@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Product from "../product/product";
 import styles from "./products.module.css";
-import Modal from "../modal/modal";
+import Product from "../product/product";
 import Spinner from "../spinner/spinner";
+import Modal from "../modal/modal";
 
 const Products = () => {
   const [products, setProduct] = useState([]);

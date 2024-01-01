@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
+import styles from "./cartItem.module.css";
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
-import styles from "./cartItem.module.css";
 import { CartContext } from "../../context/CartContext";
-import { formatPrice } from "../../utils/formatPrice";
 import { GoTrash } from "react-icons/go";
+import { formatPrice } from "../../utils/formatPrice";
 
 const CartItem = ({ item }) => {
   const {
@@ -16,10 +16,11 @@ const CartItem = ({ item }) => {
 
   const handleQtyChange = e => {
     const inputValue = parseInt(e.target.value);
-    if (isNaN(inputValue)) { // 숫자가 아닌 경우
+    if (isNaN(inputValue)) {
+      // 숫자가 아닌 경우
       return false;
     }
-    changeQtyCartItem(item, parseInt(e.target.value));
+    changeQtyCartItem(item, inputValue);
   };
 
   return (

@@ -35,7 +35,7 @@ function App() {
           </header>
           <main>
             <Routes>
-              <Route exact path="/product" Component={Products} />
+              <Route path="/product" Component={Products} />
               <Route path="/cart" Component={Cart} />
             </Routes>
           </main>

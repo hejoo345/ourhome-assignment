@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../context/CartContext";
-import CartItem from "../cartItem/cartItem";
 import { FaPlus } from "react-icons/fa";
 import { FaEquals } from "react-icons/fa";
-import styles from "./cartList.module.css";
 import { formatPrice } from "../../utils/formatPrice";
+import CartItem from "../cartItem/cartItem";
+import styles from "./cartList.module.css";
 
 const CartList = () => {
   const { cartState } = useContext(CartContext);
