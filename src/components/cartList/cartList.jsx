@@ -28,43 +28,49 @@ const CartList = () => {
 
   return (
     <div>
-      <table className={styles.table}>
-        <thead>
-          <tr className={styles.head}>
-            <th>상품명</th>
-            <th>구매가</th>
-            <th>수량</th>
-            <th>금액</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          {cartState.map(item => (
-            <CartItem key={item.product_id} item={item} />
-          ))}
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colSpan={5} className={styles.priceInfo}>
-              <span className={styles.txt}>총 금액</span>
-              <span className={styles.price}>
-                <strong>{formatPrice(priceInfo.totalPrice)}</strong>원
-              </span>
-              <FaPlus />
-              <span className={styles.txt}>배송비</span>
-              <span className={styles.price}>
-                <strong>{formatPrice(priceInfo.shippingFee)}</strong>원
-              </span>
-              <span className={styles.txt2}>(3만원이상 구매시 무료배송)</span>
-              <FaEquals />
-              <span className={styles.txt}>결제 금액</span>
-              <span className={styles.price}>
-                <strong>{formatPrice(priceInfo.payment)}</strong>원
-              </span>
-            </td>
-          </tr>
-        </tfoot>
-      </table>
+      {cartState.length !== 0 ? (
+        <table className={styles.table}>
+          <thead>
+            <tr className={styles.head}>
+              <th>상품명</th>
+              <th>구매가</th>
+              <th>수량</th>
+              <th>금액</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {cartState.map(item => (
+              <CartItem key={item.product_id} item={item} />
+            ))}
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colSpan={5} className={styles.priceInfo}>
+                <span className={styles.txt}>총 금액</span>
+                <span className={styles.price}>
+                  <strong>{formatPrice(priceInfo.totalPrice)}</strong>원
+                </span>
+                <FaPlus />
+                <span className={styles.txt}>배송비</span>
+                <span className={styles.price}>
+                  <strong>{formatPrice(priceInfo.shippingFee)}</strong>원
+                </span>
+                <span className={styles.txt2}>(3만원이상 구매시 무료배송)</span>
+                <FaEquals />
+                <span className={styles.txt}>결제 금액</span>
+                <span className={styles.price}>
+                  <strong>{formatPrice(priceInfo.payment)}</strong>원
+                </span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      ) : (
+        <div className={styles.noItem}>
+          <p>장바구니가 비어있습니다.</p>
+        </div>
+      )}
     </div>
   );
 };
